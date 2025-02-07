@@ -21,6 +21,7 @@ let main = document.querySelector(".main");
 let navParent = document.querySelector('.navParent');
 let mainParent = document.querySelector('.mainParent');
 let spcCard = document.querySelectorAll('.mdCount');
+let tableCard2 = document.querySelector('.tableCard-2');
 
 toggle.onclick = function (){
     navigation.classList.toggle('active');
@@ -32,6 +33,7 @@ toggle.onclick = function (){
     navParent.classList.toggle('col-1');
     mainParent.classList.toggle('col-9');
     mainParent.classList.toggle('col-11');
+    tableCard2.classList.toggle('mobileNavWork')
     // ======= Md =======
     // spcCard.forEach((item)=>item.classList.toggle('col-md-6'))
     // ======= Lg =======

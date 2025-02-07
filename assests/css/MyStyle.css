@@ -11393,6 +11393,20 @@ body{
     .navParent{
         left: -380px;
     }
+    .tableCard-2{
+
+        position: relative;
+        justify-self: center;
+        /*margin-left: 100px;*/
+    }
+
+    .tableCard-2.mobileNavWork{
+
+        position: relative;
+        /*justify-self: center*/
+        margin-left: 100px;
+    }
+
 
 }
 
