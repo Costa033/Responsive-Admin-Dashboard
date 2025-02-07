@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap css -->
+  <link rel="stylesheet" href="assests/css/MyStyle.css">
+  <title>Responsive Admin Dashboard</title>
+
+
+</head>
+<body>
+
+
+
+<div class="container">
+
+</div>
+
+<div class="row">
+  <!--==================== Navigation ===================-->
+  <div class=" navParent col-3 col-lg-3">
+    <div class="navigation clear">
+      <ul>
+
+        <li>
+          <a href="#">
+          <span class="icon">
+            <ion-icon name="home-outline"></ion-icon>
+          </span>
+            <span class="title">Home</span>
+          </a>
+          <hr style="color: var(--white)" class="line">
+        </li>
+        <li>
+          <a href="#">
+          <span class="icon">
+            <ion-icon name="phone-portrait-outline"></ion-icon>
+          </span>
+            <span class="title">Mobiles</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+          <span class="icon">
+            <ion-icon name="people-outline"></ion-icon>
+          </span>
+            <span class="title">Customers</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+          <span class="icon">
+            <ion-icon name="chatbubbles-outline"></ion-icon>
+          </span>
+            <span class="title">Messages</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+          <span class="icon">
+            <ion-icon name="help-circle-outline"></ion-icon>
+          </span>
+            <span class="title">Help</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+          <span class="icon">
+            <ion-icon name="settings-outline"></ion-icon>
+          </span>
+            <span class="title">Settings</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+          <span class="icon">
+            <ion-icon name="lock-closed-outline"></ion-icon>
+          </span>
+            <span class="title">Password</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+          <span class="icon">
+            <ion-icon name="log-out-outline"></ion-icon>
+          </span>
+            <span class="title">Sign Out</span>
+          </a>
+        </li>
+
+
+      </ul>
+    </div>
+  </div>
+
+  <!--==================== Main ===================-->
+  <div class="mainParent col-9 col-lg-9 pt-3">
+
+    <!--========== NavBar ==========-->
+    <div class="row main navbarRow">
+      <div class="col-12 mb-2">
+        <div class=" ">
+
+          <!--===== Top Bar====-->
+          <div class="topBar">
+
+            <div class="toggle">
+              <ion-icon name="menu-outline"></ion-icon>
+            </div>
+
+            <div class="search">
+              <label>
+                <input type="text" placeholder="Search Here..."
+                       class="">
+                <ion-icon name="search-outline" id="search-icon"></ion-icon>
+              </label>
+            </div>
+
+            <div class="user">
+              <img src="assests/imgs/IMG_20220513_012222_726.jpg" alt="User Photo"
+                   width="50px" height="50px" class="rounded-circle">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--========== Cards ==========-->
+    <div class="row px-3">
+
+
+      <div class="col-sm-12 col-md-6 col-xl-3 mt-3 mdCount">
+
+        <div class="card spcCard mb-3 border shadow mx-auto" >
+          <div class="row g-0">
+
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title cardNumber">1,540</h5>
+                <p class="card-text cardName daily">Daily views</p>
+              </div>
+            </div>
+            <div class="col-md-4 cardIcon">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col-sm-12 col-md-6 col-xl-3 mt-3 mdCount">
+
+        <div class="card spcCard mb-3 border shadow mx-auto" >
+          <div class="row g-0">
+
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title cardNumber">80</h5>
+                <p class="card-text cardName">Sales</p>
+              </div>
+            </div>
+            <div class="col-md-4 cardIcon">
+              <ion-icon name="cart-outline"></ion-icon>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col-sm-12 col-md-6 col-xl-3 mt-3 mdCount">
+
+        <div class="card spcCard mb-3 border shadow mx-auto">
+          <div class="row g-0">
+
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title cardNumber">284</h5>
+                <p class="card-text cardName">Comments</p>
+              </div>
+            </div>
+            <div class="col-md-4 cardIcon">
+              <ion-icon name="chatbubbles-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-sm-12 col-md-6 col-xl-3 mt-3 mdCount">
+
+        <div class="card spcCard mb-3 border shadow mx-auto">
+          <div class="row g-0">
+
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title cardNumber">$3333</h5>
+                <p class="card-text cardName">Earning</p>
+              </div>
+            </div>
+            <div class="col-md-4 cardIcon">
+              <ion-icon name="cash-outline"></ion-icon>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+    <!--========== Order Details ==========-->
+    <div class="row mt-5">
+
+      <!--======= Recent Orders =======-->
+      <div class="col-12 col-lg-8 mb-5 " id="rOrders">
+        <div class="card shadow tableCard" >
+          <div class="card-body ">
+            <h5 class="card-title " id="cardTableName">Recent Orders</h5>
+            <div class="btn btn-primary btn-sm " id="tableBtn">View All</div>
+
+            <table class="table " id="orderTable">
+              <thead>
+              <tr id="tableCategories">
+                <th scope="col">Name</th>
+                <th scope="col" id="col-2-table">Price</th>
+                <th scope="col"  id="col-3-table">Payment</th>
+                <th scope="col" id="col-4-table">Status</th>
+              </tr>
+              </thead>
+              <tbody>
+
+              <tr class="rowMainTable">
+                <th scope="row" class="row-1-table">Dell Laptop</th>
+                <th scope="row" class="row-2-table">$1500</th>
+                <th scope="row" class="row-3-table">Paid</th>
+                <th scope="row" class="row-4-table ">
+                  <h5><span class="badge bg-success ">Delivered</span></h5>
+                </th>
+              </tr>
+
+              <tr class="rowMainTable">
+                <th scope="row" class="row-1-table">Asus Laptop</th>
+                <th scope="row" class="row-2-table">$1200</th>
+                <th scope="row" class="row-3-table">Due</th>
+                <th scope="row" class="row-4-table align-items-center">
+                  <h5><span class="badge bg-warning ">Pending</span></h5>
+                </th>
+              </tr>
+
+              <tr class="rowMainTable">
+                <th scope="row" class="row-1-table">HP Laptop</th>
+                <th scope="row" class="row-2-table">$1300</th>
+                <th scope="row" class="row-3-table">Due</th>
+                <th scope="row" class="row-4-table align-items-center">
+                  <h5><span class="badge bg-danger ">Return</span></h5>
+                </th>
+              </tr>
+
+              <tr class="rowMainTable">
+                <th scope="row" class="row-1-table">Lenovo Laptop</th>
+                <th scope="row" class="row-2-table">$1100</th>
+                <th scope="row" class="row-3-table">Paid</th>
+                <th scope="row" class="row-4-table align-items-center">
+                  <h5><span class="badge bg-primary ">In Progress</span></h5>
+                </th>
+              </tr>
+              <tr class="rowMainTable">
+                <th scope="row" class="row-1-table">Dell Laptop</th>
+                <th scope="row" class="row-2-table">$1500</th>
+                <th scope="row" class="row-3-table">Paid</th>
+                <th scope="row" class="row-4-table align-items-center">
+                  <h5><span class="badge bg-success ">Delivered</span></h5>
+                </th>
+              </tr>
+
+              <tr class="rowMainTable">
+                <th scope="row" class="row-1-table">Asus Laptop</th>
+                <th scope="row" class="row-2-table">$1200</th>
+                <th scope="row" class="row-3-table">Due</th>
+                <th scope="row" class="row-4-table align-items-center">
+                  <h5><span class="badge bg-warning ">Pending</span></h5>
+                </th>
+              </tr>
+
+              <tr class="rowMainTable">
+                <th scope="row" class="row-1-table">HP Laptop</th>
+                <th scope="row" class="row-2-table">$1300</th>
+                <th scope="row" class="row-3-table">Due</th>
+                <th scope="row" class="row-4-table align-items-center">
+                  <h5><span class="badge bg-danger ">Return</span></h5>
+                </th>
+              </tr>
+
+              <tr class="rowMainTable">
+                <th scope="row" class="row-1-table">Lenovo Laptop</th>
+                <th scope="row" class="row-2-table">$1100</th>
+                <th scope="row" class="row-3-table">Paid</th>
+                <th scope="row" class="row-4-table align-items-center">
+                  <h5><span class="badge bg-primary ">In Progress</span></h5>
+                </th>
+              </tr>
+
+              </tbody>
+            </table>
+
+          </div>
+        </div>
+      </div>
+
+      <!--======= New Customers =======-->
+      <div class="col-12 col-lg-4  ">
+
+        <div class="card shadow tableCard-2  " >
+          <div class="card-body mx-auto">
+            <h5 class="card-title mb-5 " id="cardTableName-2">New Customers</h5>
+
+            <table class="table " id="orderTable-2">
+              <thead>
+<!--              <tr id="tableCategories">-->
+<!--                <th scope="col">Name</th>-->
+<!--                <th scope="col" id="col-2-table">Price</th>-->
+<!--                <th scope="col"  id="col-3-table">Payment</th>-->
+<!--                <th scope="col" id="col-4-table">Status</th>-->
+<!--              </tr>-->
+              </thead>
+              <tbody class="mt-5">
+
+              <tr class="rowMainTable  table-2 mt-5">
+                <th scope="row" class="customerImg">
+                  <img src="assests/imgs/IMG_20220513_012222_726.jpg" alt="customerPic"
+                         class=" customerImg rounded rounded-circle shadow ">
+                </th>
+                <th scope="row" class="customerName">
+                 <p class="name">Abdelrahman Essam</p>
+                <p scope="row" class="country">Egypt</p>
+                </th>
+              </tr>
+
+              <tr class="rowMainTable  table-2">
+                <th scope="row" class="customerImg">
+                  <img src="assests/imgs/IMG_20220513_012222_726.jpg" alt="customerPic"
+                       class=" customerImg rounded rounded-circle shadow ">
+                </th>
+                <th scope="row" class="customerName">
+                  <p class="name">Abdelrahman Essam</p>
+                  <p scope="row" class="country">Egypt</p>
+                </th>
+              </tr>
+
+              <tr class="rowMainTable  table-2">
+                <th scope="row" class="customerImg">
+                  <img src="assests/imgs/IMG_20220513_012222_726.jpg" alt="customerPic"
+                       class=" customerImg rounded rounded-circle shadow ">
+                </th>
+                <th scope="row" class="customerName">
+                  <p class="name">Abdelrahman Essam</p>
+                  <p scope="row" class="country">Egypt</p>
+                </th>
+              </tr>
+
+              <tr class="rowMainTable  table-2">
+                <th scope="row" class="customerImg">
+                  <img src="assests/imgs/IMG_20220513_012222_726.jpg" alt="customerPic"
+                       class=" customerImg rounded rounded-circle shadow ">
+                </th>
+                <th scope="row" class="customerName">
+                  <p class="name">Abdelrahman Essam</p>
+                  <p scope="row" class="country">Egypt</p>
+                </th>
+              </tr>
+
+              <tr class="rowMainTable  table-2">
+                <th scope="row" class="customerImg">
+                  <img src="assests/imgs/IMG_20220513_012222_726.jpg" alt="customerPic"
+                       class=" customerImg rounded rounded-circle shadow ">
+                </th>
+                <th scope="row" class="customerName">
+                  <p class="name">Abdelrahman Essam</p>
+                  <p scope="row" class="country">Egypt</p>
+                </th>
+              </tr>
+
+              <tr class="rowMainTable  table-2">
+                <th scope="row" class="customerImg">
+                  <img src="assests/imgs/IMG_20220513_012222_726.jpg" alt="customerPic"
+                       class=" customerImg rounded rounded-circle shadow ">
+                </th>
+                <th scope="row" class="customerName">
+                  <p class="name">Abdelrahman Essam</p>
+                  <p scope="row" class="country">Egypt</p>
+                </th>
+              </tr>
+
+              <tr class="rowMainTable  table-2">
+                <th scope="row" class="customerImg">
+                  <img src="assests/imgs/IMG_20220513_012222_726.jpg" alt="customerPic"
+                       class=" customerImg rounded rounded-circle shadow ">
+                </th>
+                <th scope="row" class="customerName">
+                  <p class="name">Abdelrahman Essam</p>
+                  <p scope="row" class="country">Egypt</p>
+                </th>
+              </tr>
+
+              </tbody>
+            </table>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--================ IonIcon ==============-->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+
+<script src="assests/popper.min.js"></script>
+<script src="assests/jquery.min.js"></script>
+<!--============ Bootstrap.JS ============-->
+<script src="assests/js/javas.js"></script>
+<script src="assests/bootstrap.js"></script>
+</body>
+</html>
